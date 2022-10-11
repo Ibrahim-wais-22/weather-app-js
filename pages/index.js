@@ -35,13 +35,13 @@ export default function Home() {
           setWeather(response);
         })
         .catch((err) => console.error(err));
-      console.log(weather);
+      // console.log(weather);
     }, [selectedCity]);
 
-    if (!cities || !weather) {
-      return <div>Loading...</div>;
-    }
-    console.log(weather);
+    // if (!cities || !weather) {
+    //   return <div>Loading...</div>;
+    // }
+    // console.log(weather);
 
   return (
     <div>
