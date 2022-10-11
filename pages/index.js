@@ -52,7 +52,7 @@ export default function Home() {
       </Head>
 
       <main className='cointainer'>
-      <PageWeather cities={cities} weather={weather} handleClick={handleClick} />
+      {/* <PageWeather cities={cities} weather={weather} handleClick={handleClick} /> */}
       </main>
 
      
